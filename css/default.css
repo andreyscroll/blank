@@ -1,0 +1,56 @@
+
+/* General */
+
+* {
+   -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+}
+
+a {text-decoration: none}
+
+h1, h2, h3, h4, h5 {margin: 0; padding: 0;}
+
+ul {list-style-type: none}
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+  height: 0;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+/* Main Styles */
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.left {float: left;}
+.right {float: right;}
+
+/* ClearFix */
+.clearfix:before, .clearfix:after {
+		content: "";
+		display: table;
+}
+.clearfix:after {
+		clear:both;
+}
